@@ -1,4 +1,4 @@
-# Dust
+# Lattice_Planner
 An autonomous vehicle planning and control software's frame.
 <!--
 1. 问题
