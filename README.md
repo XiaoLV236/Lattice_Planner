@@ -52,6 +52,12 @@ An autonomous vehicle planning and control software's frame.
 
 Alternatively, simply perform the following steps：
 在scripts文件夹下执行以下命令。
+
+* To prepare for installation, execute the following command to grant executable permissions to the "xx.sh" script:
+  ```sh
+  chmod +x "xx".sh
+  ```
+
 * ros
 
   ```sh
@@ -91,6 +97,9 @@ Alternatively, simply perform the following steps：
    ```
 
 ### Run PNC
+   ```sh
+   source devel/setup.bash
+   ```
 1. run planning package:
    ```sh
    roslaunch planning planning.launch
