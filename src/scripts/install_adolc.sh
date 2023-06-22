@@ -37,7 +37,7 @@ unzip ADOL-C-2.6.3.zip
 pushd ADOL-C-2.6.3
 sudo autoreconf --install
 sudo automake
-sudo ./configure --prefix="/home/hope/sg/51simone/Dust/src/scripts/ADOL-C-2.6.3" --enable-sparse --enable-addexa --with-openmp-flag="-fopenmp" --with-colpack="/usr/local/colpack" ADD_CXXFLAGS="-fPIC" ADD_CFLAGS="-fPIC" ADD_FFLAGS="-fPIC"
+sudo ./configure --prefix="$PWD/src/scripts/ADOL-C-2.6.3" --enable-sparse --enable-addexa --with-openmp-flag="-fopenmp" --with-colpack="/usr/local/colpack" ADD_CXXFLAGS="-fPIC" ADD_CFLAGS="-fPIC" ADD_FFLAGS="-fPIC"
 
 sudo make -j8 all
 sudo make install

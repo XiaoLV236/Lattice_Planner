@@ -16,4 +16,4 @@ cp -r include/* /usr/local/include
 cd ..
 
 # Clean up.
-rm -fr qpOASES
+sudo rm -fr qpOASES

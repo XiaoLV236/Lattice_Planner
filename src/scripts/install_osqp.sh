@@ -22,6 +22,5 @@ make install
 popd
 
 #Clean
-apt-get clean && rm -rf /var/lib/apt/lists/*
-rm -fr osqp
-rm -fr osqp-eigen
+sudo apt-get clean && sudo rm -rf /var/lib/apt/lists/*
+sudo rm -fr osqp-0.5.0 osqp-eigen-0.4.1

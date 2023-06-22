@@ -23,19 +23,19 @@ sudo apt-get install -y \
 	libpugixml-dev \
 	python3-catkin-tools \
 	libpcap-dev \
-	ros-melodic-angles \
-	ros-melodic-camera-info-manager \
-	ros-melodic-ddynamic-reconfigure \
-	ros-melodic-diagnostic-updater \
-	ros-melodic-geodesy \
-	ros-melodic-jsk-recognition-msgs ros-melodic-visualization-msgs \
-	ros-melodic-lanelet2 \
-	ros-melodic-nav-msgs \
-	ros-melodic-nmea-msgs \
-	ros-melodic-tf2-sensor-msgs\
-	ros-melodic-navigation*\
-	ros-melodic-pointcloud-to-laserscan\
-	ros-melodic-map-server
+	ros-noetic-angles \
+	ros-noetic-camera-info-manager \
+	ros-noetic-ddynamic-reconfigure \
+	ros-noetic-diagnostic-updater \
+	ros-noetic-geodesy \
+	ros-noetic-jsk-recognition-msgs ros-noetic-visualization-msgs \
+	ros-noetic-lanelet2 \
+	ros-noetic-nav-msgs \
+	ros-noetic-nmea-msgs \
+	ros-noetic-tf2-sensor-msgs\
+	ros-noetic-navigation*\
+	ros-noetic-pointcloud-to-laserscan\
+	ros-noetic-map-server
 	
 # catkin build的python依赖
 echo "Catkin build python package"
