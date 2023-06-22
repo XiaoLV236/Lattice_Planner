@@ -97,6 +97,9 @@ Alternatively, simply perform the following steps：
    ```
 
 ### Run PNC
+   ```sh
+   source devel/setup.bash
+   ```
 1. run planning package:
    ```sh
    roslaunch planning planning.launch
